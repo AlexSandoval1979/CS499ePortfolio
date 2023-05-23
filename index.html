@@ -3,6 +3,16 @@
 <head>
   <title>My Portfolio</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .experience-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .job {
+      width: 45%;
+    }
+  </style>
 </head>
 <body>
   <header class="banner">
@@ -27,24 +37,14 @@
   <section>
     <h2>Skills</h2>
     <ul>
-      <li>Programming Languages: Proficiency in one or more programming languages such as Java, C++, and Python</li>
-      <li>Software Development: Understanding of software development principles, object-oriented programming, algorithms, and data structures.</li>
-      <li>Web Development: Knowledge of HTML, CSS, and Django for building web applications</li>
-      <li>Database Management: Experience working with relational databases using SQL for data modeling and querying. Familiarity with database management systems like MySQL and NoSQL.</li>    
-      <li>Software Testing and Quality Assurance: Understanding of software testing methodologies, test planning, and execution. Knowledge of tools and frameworks like Selenium, JUnit, or TestNG.</li>
-      <li>Software Engineering Practices: Knowledge of software development lifecycle (SDLC), version control systems (e.g., Git), code reviews, and agile methodologies such as Scrum</li>
-      <li>Object-Oriented Analysis and Design: Proficiency in designing software systems using UML (Unified Modeling Language) and applying design patterns.</li>
-      <li>Operating Systems: Understanding of operating system concepts, processes, threads, memory management, and file systems. Familiarity with Linux/Unix environments.</li>
-      <li>Mobile App Development: Knowledge of mobile development frameworks like Android Studio for Android app development.</li>
-      <li>Software Project Management: Understanding of project management principles, including requirements gathering, project planning, and team collaboration.</li>
-      <li>Communication and Collaboration: Effective communication skills for working in team environments, collaborating with stakeholders, and presenting technical concepts.</li>
+      <!-- Skills list goes here -->
     </ul>
   </section>
 
   <section>
     <h2>Experience</h2>
-    <ul>
-      <li>
+    <div class="experience-container">
+      <div class="job">
         <h3>Information Technology Technician</h3>
         <p>Hillsborough Community College, Tampa Florida</p>
         <p>March 2019 - Present</p>
@@ -56,9 +56,9 @@
           <li>Prepares and maintains operational records, reports, forms, and related information. (5%)</li>
           <li>Performs other similar and related duties as required.</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div class="job">
         <h3>Help Desk Technician 1</h3>
         <p>Florida Department of Transportation, Tampa Florida</p>
         <p>February 2018 - March 2019</p>
@@ -78,8 +78,8 @@
           <li>Provides training to end-users regarding the Transportation Technology policies, procedures, and best practices via classroom, computer-based training, or other methods.</li>
           <li>Adheres to F.A.C. 60-8, Accessible and Electronic Information Technology.</li>
         </ul>
-      </li>
-    </ul>
+      </div>
+    </div>
   </section>
 
   <section>
@@ -92,22 +92,21 @@
   <section>
     <h2>Certifications</h2>
     <ul>
-      <li>CompTIA A+</li>
-      <li>CompTIA Security+</li>
+      <!-- Certifications list goes here -->
     </ul>
   </section>
 
   <section>
     <h2>Professional Associations</h2>
     <ul>
-      <li>[Membership in any professional organizations or tech communities]</li>
+      <!-- Professional associations list goes here -->
     </ul>
   </section>
 
   <section>
     <h2>Additional Information</h2>
     <ul>
-      <li>[Include any additional relevant information, such as languages spoken, interests, or open-source contributions]</li>
+      <!-- Additional information goes here -->
     </ul>
   </section>
 
