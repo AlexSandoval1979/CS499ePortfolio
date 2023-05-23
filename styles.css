@@ -1,9 +1,9 @@
 .banner {
   background-image: url('images/Alex.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  height: 800px; /* Increase the height to make the picture bigger */
-  margin-bottom: 20px; /* Add some margin to create space between the banner and other content */
+  height: 400px;
+  margin-bottom: 20px;
 }
 
 body {
