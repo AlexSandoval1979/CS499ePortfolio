@@ -2,7 +2,7 @@
   background-image: url('images/Alex.jpg');
   background-size: cover;
   background-position: center;
-  height: 400px; /* Increase the height to make the picture bigger */
+  height: 800px; /* Increase the height to make the picture bigger */
   margin-bottom: 20px; /* Add some margin to create space between the banner and other content */
 }
 
