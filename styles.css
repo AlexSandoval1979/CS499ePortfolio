@@ -1,12 +1,6 @@
-.banner {
-  background-image: url('images/Alex.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; /* Add this line to prevent image duplication */
-  height: 400px;
-  margin-bottom: 20px;
-}
+/* styles.css */
 
+/* Global styles */
 body {
   font-family: Arial, sans-serif;
   color: #333;
@@ -18,4 +12,63 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* Add more CSS rules for styling other elements */
+/* Header styles */
+header {
+  text-align: center;
+}
+
+/* Banner styles */
+.banner {
+  background-image: url('images/Alex.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+section p {
+  margin-bottom: 15px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+section ul {
+  columns: 2;
+  column-gap: 30px;
+}
+
+/* Experience section styles */
+section h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+section ul ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+/* Footer styles */
+footer h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin-bottom: 15px;
+}
