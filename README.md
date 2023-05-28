@@ -1,6 +1,5 @@
-[Your Name]
+Alex Sandoval
 [Contact Information: Phone Number, Email Address, LinkedIn URL, GitHub URL]
-<img src=https://github.com/AlexSandoval1979/CS499ePortfolio/blob/main/images/Alex%20in%20the%20Clouds.JPG alt="Profile Photo">
 
 Objective:
 Highly skilled and motivated technology professional with [X] years of experience in [specific tech areas]. Seeking a challenging position as a [desired role] to leverage my expertise in [relevant skills] and contribute to the success of [company/organization].
