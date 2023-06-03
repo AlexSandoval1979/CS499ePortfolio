@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Shelter Database</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles1.css') }}">
+  <link rel="icon" href="{{ url_for('static', filename='dog-16.png') }}" type="image/png">
+</head>
+
+<body>
+  <div class="banner-container">
+    <img src="{{ url_for('static', filename='image/dogs_cats.jpg') }}" alt="Banner Image">
+  </div>
+
+  <div class="container">
+    <div class="search-results-container">
+      <h1>Animal Shelter Database</h1>
+      <form id="search-form">
+        <label for="animal-type">Animal Type:</label>
+        <select id="animal-type" name="animalType">
+          <option value="All">All</option>
+          <option value="Dog">Dog</option>
+          <option value="Cat">Cat</option>
+        </select>
+
+        <label for="animal-color">Color:</label>
+        <input type="text" id="animal-color" name="animalColor">
+
+        <label for="outcome-type">Outcome Type:</label>
+        <select id="outcome-type" name="outcomeType">
+          <option value="All">All</option>
+          <option value="Adoption">Adoption</option>
+          <option value="Transfer">Transfer</option>
+          <option value="Return to Owner">Return to Owner</option>
+          <option value="Euthanasia">Euthanasia</option>
+          <option value="Died">Died</option>
+          <option value="Disposal">Disposal</option>
+          <option value="Rto-Adopt">Rto-Adopt</option>
+          <option value="Missing">Missing</option>
+          <option value="Relocate">Relocate</option>
+          <option value="In Foster">In Foster</option>
+          <option value="Disposal > Missing">Disposal > Missing</option>
+          <option value="Euthanasia Request">Euthanasia Request</option>
+        </select>
+
+        <label for="sort-by">Sort By:</label>
+        <select id="sort-by" name="sortBy">
+          <option value="animal_id">Animal ID</option>
+          <option value="breed">Breed</option>
+          <option value="color">Color</option>
+          <option value="outcome_type">Outcome Type</option>
+        </select>
+
+        <label for="sort-order">Sort Order:</label>
+        <select id="sort-order" name="sortOrder">
+          <option value="asc">Ascending</option>
+          <option value="desc">Descending</option>
+        </select>
+
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <div id="result-container" class="result-container"></div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script1.js') }}"></script>
+</body>
+
+</html>
+
+
